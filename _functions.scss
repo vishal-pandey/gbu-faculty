@@ -1,0 +1,8 @@
+@mixin flexCenter($theHeight) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: $theHeight;
+    width: 100%;
+    flex-direction: column;
+}
